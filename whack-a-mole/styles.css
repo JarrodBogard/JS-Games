@@ -1,0 +1,28 @@
+.grid {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black
+}
+
+.mole {
+    background-image: url("./image/mole.jpg");
+    background-size: cover;
+}
+
+button {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#result-display {
+    font-size: ;
+}
